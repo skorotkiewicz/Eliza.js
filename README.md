@@ -21,3 +21,8 @@ Set `HOST` or `PORT` to override the default listener:
 ```
 HOST=0.0.0.0 PORT=3000 node eliza.js
 ```
+
+Research sources:
+
+- ELIZAGEN: Original ELIZA - https://sites.google.com/view/elizagen-org/original-eliza
+- ELIZA Reanimated: The world's first chatbot restored on the world's first time sharing system - https://arxiv.org/abs/2501.06707
