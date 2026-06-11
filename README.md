@@ -1,9 +1,23 @@
-=== Eliza.js chatbot in NodeJS === 
+=== Eliza.js chatbot in NodeJS ===
 
-To run Eliza.js need you nodejs.
+Requires Node.js.
 
-after installation nodejs run the bot with the command:
+Run:
+
+```
 node eliza.js
+```
 
-usage
-http://localhost:1337/YOU_MESSAGE
+Usage:
+
+```
+http://127.0.0.1:1337/YOUR_MESSAGE
+http://127.0.0.1:1337/?q=YOUR_MESSAGE
+http://127.0.0.1:1337/reset
+```
+
+Set `HOST` or `PORT` to override the default listener:
+
+```
+HOST=0.0.0.0 PORT=3000 node eliza.js
+```
